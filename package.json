@@ -1,0 +1,15 @@
+{
+  "name": "clarity-mcp-server-http",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "HTTP wrapper for Microsoft Clarity MCP Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@microsoft/clarity-mcp-server": "^2.0.1",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "express": "^5.2.1"
+  }
+}
